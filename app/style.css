@@ -33,7 +33,7 @@ html {
 
 .container {
     width: 600px;
-    height: 600px;
+    height: 700px;
     background-color: #f2eecb;
     border-radius: 4px;
     padding: 32px;
@@ -63,7 +63,47 @@ html {
 .header-btn {
     font-size: 1.8rem;
     font-family: "bungee", sans-serif;
-    padding: 10px;
+    padding: 16px;
+
+    cursor: pointer;
+
+    background: unset;
+    border: unset;
+    outline: unset;
+}
+
+.add {
+    padding: 16px;
+}
+
+.add-form {
+    display: flex;
+    align-items: center;
+}
+
+.add-input {
+    background: unset;
+    border: unset;
+    outline: none;
+    padding: 0 64px;
+
+    flex: 1;
+
+    border-bottom: 1px solid var(--main-red-color);
+
+    font-family: "indie flower", sans-serif;
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+.add-btn {
+    font-size: 1.8rem;
+    font-family: "bungee", sans-serif;
+
+    padding: 16px;
+    padding-right: unset;
+    cursor: pointer;
+
     background: unset;
     border: unset;
     outline: unset;
